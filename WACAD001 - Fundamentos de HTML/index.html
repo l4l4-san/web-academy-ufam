@@ -1,11 +1,137 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Web Academy</title>
+    <meta charset="UTF-8">
+    <title>Minha Segunda Página HTML</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .container {
+            width: 60%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .exercicio {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+
+        .github {
+            margin-top: 40px;
+            width: 200px;
+            height: 100px;
+            background-color: salmon;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .preview {
+            width: 35%;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .preview h2 {
+            font-size: 22px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #000;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        img {
+            margin-top: 10px;
+            width: 80px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Meu primeiro site</h1>
-    <p>Olá, esse é meu projeto!</p>
+
+    <div class="container">
+        <h1>Minha Segunda Página HTML</h1>
+
+        <div class="exercicio">
+            <strong>Exercício:</strong><br>
+            criar uma página HTML com os mesmos elementos da página ao lado
+        </div>
+
+        <div class="github">
+            github
+            <span>html12</span>
+        </div>
+    </div>
+
+    <div class="preview">
+        <h2>A Linguagem HTML <span style="color: orange;">5</span></h2>
+
+        <p>
+            HTML (abreviação para a expressão inglesa HyperText Markup Language,
+            que significa Linguagem de Marcação de Hipertexto) é uma linguagem
+            de marcação utilizada na construção de páginas na Web.
+            Documentos HTML podem ser interpretados por navegadores.
+        </p>
+
+        <p>Alguns dos recursos da linguagem HTML vistos até este momento:</p>
+
+        <table>
+            <tr>
+                <th>Recursos</th>
+                <th>Tags associadas</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>Links</td>
+                <td>&lt;a&gt;</td>
+                <td>Criar links entre páginas</td>
+            </tr>
+            <tr>
+                <td>Listas</td>
+                <td>&lt;ul&gt; e &lt;li&gt;</td>
+                <td>Criar listas de itens não ordenados</td>
+            </tr>
+            <tr>
+                <td>Listas</td>
+                <td>&lt;ol&gt; e &lt;li&gt;</td>
+                <td>Criar listas de itens ordenados</td>
+            </tr>
+            <tr>
+                <td>Imagens</td>
+                <td>&lt;img&gt;</td>
+                <td>Inserir imagens</td>
+            </tr>
+        </table>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5">
+    </div>
+
 </body>
 </html>
